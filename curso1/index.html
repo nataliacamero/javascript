@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Registro de notas estudiantes</title>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/javascript.js" ></script>
+
+	</head>
+	
+		<body onload="bienvenida()">
+		
+			<h1>Administracion de notas estudiantes</h1>
+		
+					<div align="center">
+					<input type="button" value="Inicio" class="buttonInicio" onclick="window.location.reload()" />
+					<input onclick="mostrarEstudiantes()" type="button" class="button" value="Mostrar estudiantes">
+					<input onclick="promedioNotas()" type="button" class="button" value="Mostrar Promedio de Notas">
+					<input onclick="mostrarNotaMayor()"" type="button" class="button" value="Mostrar nota mayor">
+					<input onclick="mostrarNotaMenor()" type="button" class="button" value="Mostrar nota menor">
+					<input onclick="mostrarEncimaPromedio()" type="button" class="button" value="Mostrar estudiantes sobre promedio">
+					<input onclick="mostrarDebajoPromedio()" type="button" class="button" value="Mostrar estudiantes bajo el promedio">
+					</div>
+
+					
+					<p id="resultado" class="promedio"></p>
+
+	</body>
+
+</html>
